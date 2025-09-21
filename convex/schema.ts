@@ -17,10 +17,10 @@ export default defineSchema({
     posts: defineTable({
         userId: v.id("users"),
         imageUrl: v.string(),
-        storageId: v.id("storage"),
+        storageId: v.id("_storage"),
         caption: v.optional(v.string()),
         likes: v.number(),
-        comment: v.number(),
+        comments: v.number(),
     }).index("by_user", ["userId"]),
 
     likes: defineTable({
