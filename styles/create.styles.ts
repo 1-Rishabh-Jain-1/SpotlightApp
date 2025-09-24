@@ -38,7 +38,7 @@ export const styles = StyleSheet.create({
     shareButtonDisabled: {
         opacity: 0.5,
     },
-    sharetext: {
+    shareText: {
         color: COLORS.primary,
         fontSize: 16,
         fontWeight: "600",
